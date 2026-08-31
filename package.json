@@ -1,0 +1,21 @@
+{
+  "name": "cse-events-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "grammy": "^1.46.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260831.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.127.1"
+  }
+}

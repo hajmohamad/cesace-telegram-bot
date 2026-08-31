@@ -1,0 +1,12 @@
+name = "cse-events-bot"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+
+[vars]
+SUPER_ADMIN_ID = "115113371"
+
+[[d1_databases]]
+binding = "ceevents_db"
+database_name = "ceevents_db"
+database_id = "059efac5-47d9-4ae8-8cdf-fbe66de94e1b"
+
