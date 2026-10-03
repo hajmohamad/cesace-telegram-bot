@@ -11,7 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "grammy": "^1.46.0"
+    "grammy": "^1.46.0",
+    "uqr": "^0.1.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260831.1",

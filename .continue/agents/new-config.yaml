@@ -1,0 +1,16 @@
+name: Example Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: my gpt-5
+    provider: openai
+    apiBase: http://localhost:20128/v1
+    model: auto
+    apiKey: sk-6e0671b60396769d-ac8772-edf22499
+
+  - uses: ollama/qwen2.5-coder-7b
+
+mcpServers:
+  - uses: anthropic/memory-mcp
+
